@@ -17,8 +17,8 @@ if not (getgenv()).autoreport then
 		Webhook = "",
 	
 		Words = {
-		Blacklisted = "https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/words/blacklisted.lua",
-		Whitelisted = "https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/words/whitelisted.lua"
+		Blacklisted = "https://raw.githubusercontent.com/safariragoli/Auto-Report-Updated-Dictionary/main/words/blacklisted.lua",
+		Whitelisted = "https://raw.githubusercontent.com/safariragoli/Auto-Report-Updated-Dictionary/main/words/whitelisted.lua"
 		}
 	};
 end;
