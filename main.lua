@@ -17,8 +17,7 @@ if not (getgenv()).autoreport then
 		Webhook = "",
 	
 		Words = {
-		Blacklisted = "https://raw.githubusercontent.com/safariragoli/Auto-Report-Updated-Dictionary/main/words/blacklisted.lua",
-		Whitelisted = "https://raw.githubusercontent.com/safariragoli/Auto-Report-Updated-Dictionary/main/words/whitelisted.lua"
+		Blacklisted = "https://raw.githubusercontent.com/safariragoli/Auto-Report-Updated-Dictionary/main/lol.txt",
 		}
 	};
 end;
@@ -29,7 +28,6 @@ end;
 
 local messages = {
 	blacklisted = loadstring(game:HttpGet(getgenv().autoreport.words.Blacklisted)),
-	whitelisted = loadstring(game:HttpGet(getgenv().autoreport.words.Whitelisted))
 }
 
 local lib = {};
